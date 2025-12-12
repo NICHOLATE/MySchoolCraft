@@ -139,7 +139,7 @@ export const TECHNICAL_DOCS: DocSection[] = [
             <h4 className="font-bold text-indigo-600 mb-1">1. Structured Lesson Plan</h4>
             <p className="text-sm text-slate-600">
               <strong>Technique: Chain-of-Thought Sequencing.</strong><br/>
-              We force the model to think linearly through a class period. By explicitly requesting "Timing" in the prompt structure, the model allocates tokens to simulate a real 60-minute flow (Intro -{'>'} Instruction -> Practice), ensuring no section is skipped.
+              We force the model to think linearly through a class period. By explicitly requesting "Timing" in the prompt structure, the model allocates tokens to simulate a real 60-minute flow (Intro -{'>'} Instruction -{'>'}  Practice), ensuring no section is skipped.
             </p>
           </div>
           
